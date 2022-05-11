@@ -31,7 +31,7 @@ causal_direction = model(X, Y)
 print(causal_direction)
 ```
 
-Where `causal_direction` is a value representing the model's confidence of the causal direction. A positive value indicates that `X -> Y`, while a negative value indicates that `Y -> X`. Using CDCI, the identifiability of the causal direction is ensured if exactly one of `P[Y|X]` and `P[X|Y]` is invariant in shape. Section 4 of [the paper](https://openreview.net/forum?id=8X6cWIvY_2v) presents partial theoretical guarantees, and give in-depth explanations on why CDCI can correctly predict the causal direction in many situations, even in presence of non-causal confounders.
+Where `causal_direction` is a value representing the model's confidence of the causal direction. A positive value indicates that `X -> Y`, while a negative value indicates that `Y -> X`. Using CDCI, the identifiability of the causal direction is ensured if exactly one of `P[Y|X]` and `P[X|Y]` is invariant in shape. Section 4 of [the paper](https://openreview.net/forum?id=8X6cWIvY_2v) presents partial theoretical guarantees, and give in-depth explanations on why CDCI can correctly predict the causal direction in many situations, even in presence of (non-causal) confounders.
 
 ## Citation
 
