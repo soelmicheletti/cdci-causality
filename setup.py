@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name="cdci-causality",
     packages=find_packages(exclude=[]),
-    version="0.0.4",
+    version="0.0.2",
     license="MIT",
     description="CDCI - Causality",
     long_description="CDCI - Causality",
