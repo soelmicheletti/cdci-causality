@@ -1,4 +1,9 @@
+from pathlib import Path
+
 from setuptools import find_packages, setup
+
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="cdci-causality",
@@ -6,7 +11,7 @@ setup(
     version="0.0.2",
     license="MIT",
     description="CDCI - Causality",
-    long_description="CDCI - Causality",
+    long_description=long_description,
     author="Soel Micheletti",
     author_email="msoel@ethz.ch",
     url="https://github.com/soelmicheletti/cdci-causality",
