@@ -11,7 +11,7 @@ setup(
     version="0.0.3",
     license="MIT",
     description="CDCI - Causality",
-    long_description=long_description,
+    long_description="CDCI - Causality",
     author="Soel Micheletti",
     author_email="msoel@ethz.ch",
     url="https://github.com/soelmicheletti/cdci-causality",
